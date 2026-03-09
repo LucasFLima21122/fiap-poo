@@ -27,10 +27,7 @@ Regras:
 - O nível máximo de bateria é 100%.
 
 Exemplo de uso:
-
-
 smartphone.recarregarBateria(20);
-
 
 ### instalarApp(int tamanhoGb)
 
@@ -40,14 +37,9 @@ Regras:
 - O aplicativo só pode ser instalado se houver espaço disponível no armazenamento.
 
 Exemplo de uso:
-
-
 smartphone.instalarApp(50);
 
-
 ## Exemplo de uso no sistema
-
-
 Smartphone meuS24 = new Smartphone();
 meuS24.marca = "Samsung";
 meuS24.armazenamentoInternoGb = 128;
@@ -57,7 +49,6 @@ meuS24.recarregarBateria(100);
 
 meuS24.instalarApp(50);
 meuS24.instalarApp(100);
-
 
 ## Objetivo do projeto
 
